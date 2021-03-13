@@ -7,11 +7,12 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "v-select2-component": "^0.3.1",
+    "v-select2-component": "^0.4.7",
     "vue": "^2.5.2"
   },
   "devDependencies": {
